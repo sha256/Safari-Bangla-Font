@@ -1,0 +1,21 @@
+@font-face {
+    font-family: BanglaSangamMN;
+    src: local(helvetica);
+}
+
+@font-face {
+    font-family: BanglaSangamMN;
+    src: local(BanglaSangamMN.ttf) format("opentype");
+    unicode-range: U+0980-09FF;
+}
+
+@font-face {
+    font-family: BanglaSangamMN;
+    src: local(BanglaSangamMN-Bold.ttf) format("opentype");
+    unicode-range: U+0980-09FF;
+    font-weight: bold;
+}
+
+* {
+	font-family: BanglaSangamMN, helvetica, arial, sans-serif;
+}
